@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Jumbotron from "../components/Jumbotron";
-import Card from "../components/Card";
-import Form from "../components/Form";
-import Book from "../components/Book";
-import Footer from "../components/Footer";
+// import Jumbotron from "../components/Jumbotron";
+import Card from "../Card";
+import Form from "../Form";
+import Book from "../Book/index";
+import Footer from "../Footer";
 import API from "../utils/API";
-import { Col, Row, Container } from "../components/Grid";
-import { List } from "../components/List";
+import { Col, Row, Container } from "../Grid";
+import { List } from "../List";
 
 class Home extends Component {
   state = {
